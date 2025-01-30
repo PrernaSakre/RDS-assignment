@@ -1,6 +1,6 @@
-> first_element <- vector[1]
-> last_element <- vector[length(vector)]
-> first_element
-[1] 3
-> last_element
-[1] 2.166667
+vec <- c(seq(3, 6, length.out=5), rep(c(2, -5.1, -33), 2), 7/42 + 2)
+extracted <- c(vec[1], vec[length(vec)])
+extracted
+
+# Output:
+# 3.0 2.1667
