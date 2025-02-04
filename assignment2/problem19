@@ -1,1 +1,6 @@
+matrix_19 <- matrix(matrix_17[1:4, 3], nrow = 2, ncol = 2)
+print(matrix_19)
 
+#     [,1] [,2]
+#[1,]   11   13
+#[2,]   12   14
