@@ -1,1 +1,10 @@
+matrix1 <- matrix(c(2, 3, 5, 7), nrow=2,ncol=2, byrow=TRUE)
+matrix2 <- matrix(c(5, 15, 10, 20), nrow=2,ncol=2, byrow=TRUE)
+result_21 <- 3 * (matrix1 - matrix2)
+print(result_21)
 
+
+#     [,1] [,2]
+#[1,]   -9  -36
+#[2,]  -15  -39
+ 
