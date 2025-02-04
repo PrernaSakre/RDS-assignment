@@ -1,1 +1,11 @@
+matrix_17 <- matrix_15
+matrix_17[, 1] <- sort(matrix_15[, 1], decreasing = TRUE)
+print(matrix_17)
 
+
+#     [,1] [,2] [,3]
+#[1,]    5    6   11
+#[2,]    4    7   12
+#[3,]    3    8   13
+#[4,]    2    9   14
+#[5,]    1   10   15
